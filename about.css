@@ -1,0 +1,93 @@
+body {
+    padding: 0 5%;
+} 
+
+header {
+ display: flex;   
+ flex-direction: row;
+ justify-content: space-between;
+ margin: 30px auto;
+} 
+
+nav {
+    font-family: 'Segoe UI';
+    padding-top: 20px;
+}
+
+nav a {
+    text-decoration:none;
+    margin: 10px; 
+    color: lightblue;
+    text-transform: uppercase;
+}
+
+.name {
+    font-family: "Permanent Marker";
+    font-size: 40px;
+    width:  100px;
+}
+
+.Subscribe {
+background-color: black;
+color: white;
+text-transform: uppercase;
+padding: 10px 15px;
+    }
+
+.me {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 40px; 
+justify-content: center;
+padding: 0px 10%;
+}
+
+.intro {
+    width: 60%;
+}
+
+.intro h1 { 
+font-family: 'Shadows Into Light';
+font-style: italic;
+font-size: 25px;
+    } 
+
+    .intro p { 
+     font-family: "Schoolbell";
+     font-size: 22px;
+        } 
+
+.image { 
+width: 40%;
+    }
+
+    img {
+width: 100%;
+max-width:300px;
+border-radius: 35px;
+        }
+
+        .intro blockquote {
+        font-family: 'IBM Plex Mono';
+        font-style: italic;
+        border-left: 5px grey solid;
+        margin: 0px;
+        background-color: rgb(165, 206, 241);
+           }
+
+            footer {
+                font-family: 'Segoe UI';
+                border-top: 2px grey solid;
+                border-bottom: 2px grey solid;
+                text-align: center; 
+            margin: 30px auto;
+            padding: 40px;
+        }
+
+
+
+
+
+
+
